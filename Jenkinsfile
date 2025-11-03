@@ -10,7 +10,7 @@ pipeline {
         IMAGE_TAG = "${BUILD_NUMBER}"
 
         // EC2 Deployment
-        EC2_HOST = 'ec2-54-147-13-158.compute-1.amazonaws.com'
+        EC2_HOST = 'ec2-34-227-49-28.compute-1.amazonaws.com'
         EC2_USER = 'ec2-user'
 
         // Jenkins Credentials IDs
@@ -179,3 +179,4 @@ pipeline {
         }
     }
 }
+
