@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SNUC Pro Portal made with love by Shajan Selvam</title>
+  <title>SNUC Pro Portal made with love by Shajan S</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -166,4 +166,5 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log("SNUC Pro Portal running on port " + PORT);
 });
+
 
