@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
     h1 {
       text-align: center;
       font-size: 2.6rem;
-      color: #fff;
+      color: #fff; 
       margin-bottom: 1rem;
     }
 
@@ -166,6 +166,7 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log("SNUC Pro Portal running on port " + PORT);
 });
+
 
 
 
