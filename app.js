@@ -139,7 +139,7 @@ app.get('/', (req, res) => {
       </div>
       <div class="stat-card">
         <div class="stat-value">24/7</div>
-        <div class="stat-label">Live Access</div>
+        <div class="stat-label">Live </div>
       </div>
     </div>
 
@@ -166,6 +166,7 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log("SNUC Pro Portal running on port " + PORT);
 });
+
 
 
 
