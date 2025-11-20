@@ -118,7 +118,7 @@ app.get('/', (req, res) => {
 
   <div class="container">
     <div class="location">Chennai, Tambaram India</div>
-    <h1>Welcome to the SNUC Pro Portal made with love by Shajan</h1>
+    <h1>Shajan</h1>
     <p class="subtitle">
       A refined digital space crafted for precision, strategy, and mastery.
       Stay ahead — every millisecond matters in the art of trading.
@@ -166,6 +166,7 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log("SNUC Pro Portal running on port " + PORT);
 });
+
 
 
 
