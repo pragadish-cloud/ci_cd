@@ -117,7 +117,7 @@ app.get('/', (req, res) => {
 <body>
 
   <div class="container">
-    <div class="location">Chennai, tamb India</div>
+    <div class="location">Chennai India</div>
     <h1>Shajan</h1>
     <p class="subtitle">
       A refined digital space crafted for precision, strategy, and mastery.
@@ -166,6 +166,7 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log("SNUC Pro Portal running on port " + PORT);
 });
+
 
 
 
