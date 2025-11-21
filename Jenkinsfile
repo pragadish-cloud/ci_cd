@@ -14,7 +14,7 @@ pipeline {
         GCP_CREDENTIALS = credentials('gcp-service-account')
         
         // Email Configuration
-        EMAIL_RECIPIENTS = 'rahuljivisu2004@gmail.com'       // Replace with your email
+        EMAIL_RECIPIENTS = 'shajandav@gmail.com'       // Replace with your email
     }
     
     stages {
@@ -358,3 +358,4 @@ pipeline {
         }
     }
 }
+
